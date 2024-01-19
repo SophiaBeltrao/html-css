@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+body{
+    background-image: linear-gradient(to right, #F3E9C0, #AFE6BE);
+}
+main{
+    background-color: white;
+    border-radius: 20px; /* Arredondamento das bordas */
+    box-shadow: 5px 5px 15px #7a84a88e; /* Sonbrinha no bloco main, o 1 parâmetro é o quanto a sombra vai andar p lado, o 2 pe para baixo e o 3 é o quanto essa sombra vai espalhar */
+    width: 600px; /* LARGURA */
+    padding: 10px; /* Acochoamento, engordadinha*/
+    margin: auto; /* Ficar no meio*/
+}
+h1{
+color: #F4A9A0; /*Cor da letra*/
+text-align: center; /* Para o texto ficar no centro */
+text-shadow: 1px 1px 2px #7a84a88e; /* Sonbrinha no texto*/
+}
+h2{
+color: #D9A7EB;
+}
+p{
+    text-align: justify;
+}

@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'Idroid' ;
+    src: url('pacote-projeto-d010/android-site.txt') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+h2{
+    font-family: 'Idroid';
+    color: green;
+}
+h3{
+    font-family: 'Idroid';
+    color: green;
+    background-image: linear-gradient(to right, #40E690, #8BE690,#B0E690,white,white);
+}
+
+body{
+    background-color: #d5d982;
+}
+header{
+    background-image: linear-gradient(to top, #017201, #0277089f,#3994045c);
+    padding: 10px;
+    margin: 10px, 10px, 20px, 10px;
+}
+h1{
+    color: white;
+    
+}
+main{
+    background-color: white;
+            padding: 10px;
+            margin: auto;
+            width: 900px;
+            border-radius: 10px 10px;
+    font-family: 'Oswald', sans-serif;
+
+}
+p{
+font-weight: bold;
+text-align: justify;
+text-indent: 40px;
+}
+a{
+    text-decoration: underline;
+}
+.fontnav{
+color: white;
+text-align: center;
+font-family: 'Oswald', sans-serif;
+
+}
+.linknav{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    margin: 6px;
+
+
+}
+.font{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    margin: auto;
+    text-align: center;
+    
+}
+.imgcentro{
+    margin: auto;
+}
+#divlink{
+    background-color: green;
+    padding: 10px;
+           
+}
+#corcaixa{
+    background-color: #d5d982;
+    border-radius: 10px 10px 10px 10px;
+}
+#titulocaixa{
+    background-color: #05d805f3;
+    color: white;
+    
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+.corlinkinline{
+    color: #017201;
+    text-decoration: none;
+    
+    
+}
+.corlinkinline2{
+    color: #d5d982;
+    text-decoration: none;
+    
+}
+#rodape{
+    background-color: #017201;
+    padding: 0px;
+    margin: 12px;
+    
+}
+#centrorodape{
+    text-align: center;
+}
+
